@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://ba2r8f3bdhg5o"]
+
+[ext_resource type="Texture2D" uid="uid://b0xpcol02df2v" path="res://olho.jpg" id="1_hlqw3"]
+[ext_resource type="Script" path="res://main_scene.gd" id="1_p512r"]
+[ext_resource type="Texture2D" uid="uid://cte27qsksnxmp" path="res://olhofechado.jpg" id="2_4f2a7"]
+[ext_resource type="Texture2D" uid="uid://g7spcwnc3ei3" path="res://disco.jpg" id="3_sueic"]
+
+[node name="Raiz" type="Node2D"]
+script = ExtResource("1_p512r")
+
+[node name="Olho" type="Sprite2D" parent="."]
+position = Vector2(542, 326)
+rotation = 0.000151396
+scale = Vector2(0.211032, 0.254019)
+texture = ExtResource("1_hlqw3")
+
+[node name="Olhofechado" type="Sprite2D" parent="."]
+position = Vector2(541, 326)
+scale = Vector2(0.529018, 0.540072)
+texture = ExtResource("2_4f2a7")
+
+[node name="Disco" type="Sprite2D" parent="."]
+position = Vector2(765, 325)
+scale = Vector2(0.230469, 0.219727)
+texture = ExtResource("3_sueic")
